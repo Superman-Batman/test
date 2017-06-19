@@ -1,0 +1,42 @@
+{
+  "result": {
+    "success": true,
+    "code": 0
+  },
+  "order": [
+    {
+      "orderId": 1,
+      "servingTime": 1482812002,
+      "orderTime": 1483516899000,
+      "statusAction": {
+        "statusType": 1,
+        "statusDisplayMsg": "待接单",
+        "statusColor": "red"
+      },
+      "item": {
+        "itemId": 1,
+        "name": "尿管护理",
+        "price": 110,
+        "period": 7200,
+        "pic": "pictureItem {\n  pictureInfo: \"http://pic1.win4000.com/wallpaper/c/53cdd20a3a327.jpg\"\n}\npictureItem {\n  pictureInfo: \"http://pic1.win4000.com/wallpaper/c/123123.jpg\"\n}\n",
+        "desc": "上门尿管护理"
+      },
+      "patient": {
+        "patientId": 2138,
+        "phone": "18614041815",
+        "name": "user name",
+        "gender": 1,
+        "age": 20,
+        "address": "北京市海淀区海淀街道"
+      },
+      "availableAction": {
+        "title": "接单",
+        "action": "accept"
+      },
+      "orderNo": "9517010427434647"
+    }
+  ],
+  "bannerURL": "//youhujia.com/img/index-banner1.png",
+  "openService": false,
+  "nurseId": 6
+}

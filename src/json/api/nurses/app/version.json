@@ -1,0 +1,13 @@
+{
+  "result" : {"success" : "true"},
+  "Android" : {
+    "latestVersion" : "1.2.0",
+    "lowestSupportVersion" : "1.0.0",
+    "downloadURL" : "www.androiddownload.com"
+  },
+  "iOS" : {
+    "latestVersion" : "1.2.0",
+    "lowestSupportVersion" : "1.0.0",
+    "downloadURL" : "www.iosdownload"
+  }
+}

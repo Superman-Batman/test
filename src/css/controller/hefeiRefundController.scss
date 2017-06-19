@@ -1,0 +1,19 @@
+.hefeiRefundController {
+  .item-title {
+    &:before {
+      float: left;
+      width: remSize(3);
+      background-color: #ff8080;
+      content: ' ';
+      height: 0.7rem;
+      display: block;
+      margin-right: remSize(30);
+    }
+  }
+  .refund-title-width {
+    width: 3rem;
+  }
+  .refund-content-width {
+    width: 11.08rem;
+  }
+}

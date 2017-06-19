@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>查看记录</title>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"
+          id="viewport">
+    <script src="js/lib/angular.js"></script>
+</head>
+<style>
+    textarea::-webkit-input-placeholder {
+        text-decoration: underline;
+        color: red;
+    }
+
+    textarea:-moz-placeholder {
+        text-decoration: underline;
+        color: red;
+    }
+
+    textarea::-moz-placeholder {
+        text-decoration: underline;
+        color: red;
+    }
+
+    textarea:-ms-input-placeholder {
+        text-decoration: underline;
+        color: red;
+    }
+
+    textarea {
+        border: none;
+        resize: none;
+        background-color: lightgrey;
+        font-size: 20px;
+    }
+</style>
+<body>
+<textarea id="textValue" placeholder="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" onclick="javascript:resizeTextarea(this);" onkeyup="javascript:resizeTextarea(this);" onkeydown="javascript:resizeTextarea(this);"  onchange="javascript:resizeTextarea(this);">
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+</textarea>
+</body>
+</html>

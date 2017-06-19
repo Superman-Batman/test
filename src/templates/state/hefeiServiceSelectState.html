@@ -1,0 +1,7 @@
+<div ng-repeat="serviceItem in serviceItemList">
+    <hefei-service-select-controller data="serviceItem"></hefei-service-select-controller>
+</div>
+<div class="text-center dataNull" ng-if="serviceItemList == undefined || serviceItemList.length <= 0">
+    <img class="margin-top-xl" src="img/dataNull.png" alt="">
+    <p class="h3 font-color-base text-center margin-top-md">暂无数据</p>
+</div>

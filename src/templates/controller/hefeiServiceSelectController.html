@@ -1,0 +1,21 @@
+<div class="hefeiServiceSelectController background-color-white">
+    <li class="padding-height-md margin-left-md padding-right-md border-line-top border-color-global-base">
+        <div class="clear-float">
+            <div class="float-left h0">
+                <img ng-src="{{data.pic}}" class="radius-md">
+            </div>
+            <div class=" float-left padding-left-md">
+                <h2 class="font-color-global-base overflow-line-1" ng-bind="data.name"></h2>
+                <h3 class="font-color-yellow h3 padding-top-sm" ng-bind="(data.price / 100 | currency: '':2)  + '元'"></h3>
+            </div>
+            <div ng-click="onChooseServiceItemClick(data)">
+                <span id="s-switch" class="mui-switch mui-switch-mini float-right {{data.status == 1 ? 'border-color-pink background-color-pink mui-active':''}}">
+                    <span class="mui-switch-handle"></span>
+                </span>
+            </div>
+        </div>
+        <div class="h4 line-height margin-top-sm font-color-global-lighter word-line-height {{isShow == true ? '': 'overflow-line-2'}}"
+             ng-click="onShowContentClick()" ng-bind="data.desc">
+        </div>
+    </li>
+</div>

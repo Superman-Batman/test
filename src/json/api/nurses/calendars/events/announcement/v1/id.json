@@ -1,0 +1,57 @@
+{
+  "result": {
+    "success": true,
+    "code": 1
+  },
+  "eventId": 998,
+  "title": "本周重要新闻",
+  "author": {
+    "name": "王梦超",
+    "nurseId": 13414
+  },
+  "startTime": 147972113000,
+  "endTime": 147972113000,
+  "day": 3,
+  "content": "习近平在讲话中指出，今年9月",
+  "readPerson": [
+    {
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    },{
+      "name" : "郭苗",
+      "avatarUrl" : "http://xxx.com/me.jpg"
+    }
+  ],
+  "read":false,
+  "departmentNurseNum": 100
+}

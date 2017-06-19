@@ -1,0 +1,36 @@
+.hefeiOrderInfoController {
+  img {
+    width: remSize(120);
+    height: remSize(90);
+  }
+  .height-90 {
+    height: remSize(90);
+  }
+  .btn-width-height-size {
+    min-width: remSize(200);
+    width: remSize(200);
+    border: 1px solid;
+  }
+  .content-line-height {
+    line-height: 1.5;
+  }
+  .address-title-width {
+    width: 3rem;
+  }
+  .address-content-width {
+    width: 11.72rem;
+  }
+  .order-width{
+    width: remSize(536);
+  }
+  .position-fixed-right{
+    position: absolute;
+    right:remSize(30);
+  }
+  .margin-top-1 {
+    margin-top: remSize(2);
+  }
+  .phone-color{
+    color:#108ee9;
+  }
+}

@@ -1,0 +1,61 @@
+.hefeiWorkListController {
+  .img-div {
+    height: remSize(300);
+  }
+  img {
+    width: remSize(750);
+    height: remSize(300);
+  }
+  a {
+    .title.more:after {
+      margin-top: 0.28rem;
+    }
+    i{
+      font-size: remSize(50);
+      height: remSize(60);
+      line-height: remSize(60);
+      width: remSize(60);
+    }
+
+    //p {
+    //  span {
+    //    height: 1.28rem;
+    //    line-height: 1.28rem;
+    //  }
+    //}
+  }
+  .iconfont-span-height {
+    line-height: 1.28rem;
+    height: 1.28rem;
+  }
+  .item-title {
+    &:before {
+      float: left;
+      width: remSize(3);
+      background-color: #ff8080;
+      content: ' ';
+      height: 0.7rem;
+      display: block;
+      margin-right: remSize(30);
+    }
+  }
+  ul {
+    @extend .background-color-white;
+    height:remSize(322);
+
+    li {
+      @extend .padding-top-md, .background-color-white;
+      float: left;
+      width: 25%;
+      p {
+        text-align: center;
+      }
+    }
+  }
+  .padding-top-2 {
+    padding-top: remSize(2);
+  }
+  .padding-bottom-2 {
+    padding-bottom: remSize(2);
+  }
+}

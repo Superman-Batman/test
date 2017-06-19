@@ -1,0 +1,44 @@
+{
+  "announcement": [
+    {
+      "eventId": 998,
+      "title": "本周重要新闻",
+      "author": "王梦超",
+      "startTime": 1479712913000,
+      "endTime": 1079712913000,
+      "content": "习近平在讲话中指出，今年9月",
+      "readPerson": [{
+        "name":"郭苗",
+        "avatarUrl" : "http://xxx.com/me.jpg"
+      }],
+      "departmentNurseNum": 100
+    },{
+      "eventId": 998,
+      "title": "本周重要新闻",
+      "author": "王梦超",
+      "startTime": 1479712913000,
+      "endTime": 3479712913000,
+      "content": "习近平在讲话中指出，今年9月",
+      "readPerson": [{
+        "name":"郭苗",
+        "avatarUrl" : "http://xxx.com/me.jpg"
+      }],
+      "departmentNurseNum": 100
+    }
+  ],
+  "announcementExpire": [
+    {
+      "eventId": 999,
+      "title": "本周重要新闻",
+      "author": "王梦超",
+      "startTime": 1479712913000,
+      "endTime": 1479712913000,
+      "content": "习近平在讲话中指出，今年9月",
+      "readPerson": [{
+        "name":"郭苗",
+        "avatarUrl" : "http://xxx.com/me.jpg"
+      }],
+      "departmentNurseNum": 100
+    }
+  ]
+}

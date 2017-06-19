@@ -1,0 +1,30 @@
+<div class="hefeiOrderDetailController">
+    <div class="float-left margin-bottom-4">
+        <hefei-patient-info-controller data="data"></hefei-patient-info-controller>
+        <hefei-service-content-controller data="data" finish="finish" ng-if="data.order.action != undefined"></hefei-service-content-controller>
+        <div ng-if="data.order.review != undefined" class="hefeiEvaluationInfoController margin-top-sm">
+            <span class="h2 padding-height-sm  background-color-white padding-left-md display-block border-color-global-base border-line-bottom item-title font-color-global-base">服务评价</span>
+            <div class="background-color-white">
+                <div class="padding-left-md">
+                    <hefei-evaluation-info-controller data="data.order.review"></hefei-evaluation-info-controller>
+                </div>
+            </div>
+        </div>
+        <hefei-refund-controller data="data.order" refund="refund" ng-if="data.order.applyRefund != undefined"></hefei-refund-controller>
+    </div>
+    <div class="hefeiTermIndexController" ng-if="acceptBtn.status == true">
+        <a ng-click="onAcceptOrderClick()">
+            <p class="CommonButtonFix background-color-pink" ng-bind="acceptBtn.title"></p>
+        </a>
+    </div>
+    <div class="hefeiTermIndexController" ng-if="acceptRefundBtn.status == true">
+        <a ng-click="refund(true)">
+            <p class="CommonButtonFix background-color-pink" ng-bind="acceptRefundBtn.title"></p>
+        </a>
+    </div>
+    <div class="hefeiTermIndexController" ng-if="completeBtn.status == true">
+        <a ng-click="onFinishOrderClick()">
+            <p class="CommonButtonFix background-color-pink" ng-bind="completeBtn.title"></p>
+        </a>
+    </div>
+</div>

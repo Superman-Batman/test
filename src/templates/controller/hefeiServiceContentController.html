@@ -1,0 +1,89 @@
+<div class="hefeiTermIndexController h0 margin-top-sm background-color-white">
+    <span class="h2 padding-height-sm padding-left-md display-block border-color-global-base border-line-bottom item-title font-color-global-base">服务内容&nbsp&nbsp(共{{actionContents.length}}个步骤)</span>
+    <div>
+        <div ng-repeat="action in actionContents"
+             ng-init="action.isShowItem = false;"
+             class="padding-top-sm margin-left-md display-block font-color-global-lighter">
+            <div class="h0 overflow-line-1 float-left padding-top-sm">
+                <i class="projectIconfont font-color-darkGreen" ng-if="1 == action.order">&#xe69e;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="2 == action.order">&#xe6a6;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="3 == action.order">&#xe6a7;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="4 == action.order">&#xe69f;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="5 == action.order">&#xe6a0;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="6 == action.order">&#xe6a1;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="7 == action.order">&#xe6a2;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="8 == action.order">&#xe6a3;</i>
+                <i class="projectIconfont font-color-darkGreen" ng-if="9 == action.order">&#xe6a4;</i>
+            </div>
+            <div class="inline-block h4 margin-left-md width-lg {{$index == actionContents.length - 1 || (action.isShowItem == true && action.actionType == 8)? '': 'border-line-bottom'}} border-color-global-base padding-bottom-sm"
+                 ng-click="stateButton(action)">
+                <div class="float-left content-width">
+                    <p class="h3 padding-bottom-sm font-color-global-base" ng-bind="action.title"></p>
+                    <span class="{{action.isShowItem == true? '': 'overflow-line-2'}} h4" ng-bind="action.desc"></span>
+                </div>
+
+                <div class="float-right padding-top-sm padding-right-md h4"
+                     ng-if="action.progress.msg != undefined">
+                    <span class="inline-block h4 font-color-{{action.progress.color}}"
+                          ng-bind="'(' + action.progress.msg + ')'"
+                          ng-if="action.actionType == 5 || action.actionType == 6"></span>
+                    <span class="inline-block h4 font-color-{{action.progress.color}}"
+                          ng-bind="action.progress.msg" ng-if="action.actionType == 7"></span>
+                    <span class="inline-block h4 font-color-{{action.progress.color}}"
+                          ng-bind="action.progress.msg" ng-if="action.actionType == 8"></span>
+                    <span class="float-right projectIconfont font-color-global-lighter h4 padding-left-xs margin-top-1"
+                          ng-hide="action.isShowItem == true">&#xe600;</span>
+                    <span class="float-right projectIconfont h4 font-color-global-lighter padding-left-xs margin-top-1"
+                          ng-show="action.isShowItem == true">&#xe632;</span>
+                </div>
+            </div>
+
+            <div ng-show="action.isShowItem == true && (action.actionType == 5 || action.actionType == 6 || action.actionType == 7)"
+                 ng-repeat="item in action.content" style="word-break: break-all;"
+                 class="display-inline font-color-global-lighter width-lg item-margin-left padding-height-md {{actionContents.length - 1 == $index? 'border-line-top': ''}} border-line-bottom border-color-global-base"
+                 ng-click="showSummary(item.windowInfo, action.actionType, item.id, action.actionId)">
+                <div class="inline-block h4 float-left content-width">
+                    <p class="h3" ng-bind="'( ' + ($index + 1) + ' ) ' + item.title"></p>
+                </div>
+                <div class=" float-right padding-right-md">
+                    <p class="inline-block font-color-{{item.pro.color}} h4 {{item.windowInfo != undefined || action.actionType == 7? '': 'padding-right-md'}}"
+                       ng-bind="item.pro.statusMsg"></p>
+                    <span class="float-right projectIconfont font-color-global-lighter h4 margin-top-1"
+                          ng-if="item.windowInfo != undefined || action.actionType == 7 ">&#xe600;</span>
+                </div>
+            </div>
+
+            <div ng-show="action.isShowItem == true && action.actionType == 8 && action.availableAction != undefined"
+                 class="padding-bottom-md item-margin-left border-color-global-base {{$index == actionContents.length - 1? '': 'border-line-bottom'}} ">
+                <div class="text-center radius-md padding-height-md margin-top-sm {{action.availableAction.status == 2 ? 'btn-background-color-gray font-color-white': 'border-line border-color-global-base'}} item-margin-right"
+                     ng-click="onFinishClick(action)">
+                    <span class="h3" ng-bind="action.availableAction.title"></span>
+                </div>
+            </div>
+
+            <!--<div ng-show="action.isShowItem == true && action.progress.buttonMsg != undefined"-->
+            <!--class="display-inline item-margin-left padding-height-sm width-lg border-line-top border-color-global-base "-->
+            <!--ng-repeat="btnItem in action.content"-->
+            <!--ng-init="btnItem.show = false;btnItem.showDesc = false;">-->
+            <!--<div class="display-inline width-lg" ng-click="onShowBtnClick(btnItem)">-->
+            <!--<div class="inline-block h4 float-left content-width">-->
+            <!--<p class="h3 padding-bottom-sm" ng-bind="'( ' + ($index + 1) + ' ) ' + btnItem.title"></p>-->
+            <!--<span class="h4 float-left {{btnItem.show != false? '': 'overflow-line-2'}} btn-content" ng-bind="btnItem.desc"></span>-->
+            <!--</div>-->
+            <!--<div class=" float-right btn-right-height padding-right-md padding-top-sm">-->
+            <!--<p class="inline-block font-color-{{btnItem.progress.color}} h4"-->
+            <!--ng-bind="btnItem.progress.statusMsg"></p>-->
+            <!--<span class="float-right projectIconfont font-color-global-lighter h4 padding-left-xs margin-top-1"-->
+            <!--ng-show="btnItem.show != true">&#xe600;</span>-->
+            <!--<span class="float-right projectIconfont font-color-global-lighter h4 padding-left-xs margin-top-1"-->
+            <!--ng-show="btnItem.show == true">&#xe632;</span>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="text-center radius-md padding-height-md item-margin-right margin-top-md {{btnItem.progress.status == 1? 'btn-background-color-gray font-color-white': 'border-line border-color-global-base'}}"-->
+            <!--ng-show="btnItem.show == true" ng-click="onFinishClick(btnItem)">-->
+            <!--<span class="h3" ng-bind="btnItem.progress.status == 1? '此操作已完成':'完成该操作'"></span>-->
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>

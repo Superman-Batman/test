@@ -1,0 +1,20 @@
+<div class="createAnnouncementController">
+    <a class="h2 margin-right-md font-color-global-base many-duty" ng-click="edit()">编辑</a>
+    <div class="background-color-white position-relative">
+        <img src="img/announce.png" alt="" class="img position-right-img" ng-show="read == true">
+        <div class="margin-width-md">
+        <announcement-item-controller data="data"></announcement-item-controller>
+        </div>
+        <ul class="clear-float margin-left-md padding-right-md border-line-top border-color-global-base">
+            <p class="h3 padding-top-md padding-height-md">已读（<span
+                    class="font-color-pink" ng-bind="data.readPerson.length?data.readPerson.length:0"></span> / <span ng-bind="data.departmentNurseNum"></span>）</p>
+            <li class="li-group h3 float-left text-center" ng-repeat="nursePeople in data.readPerson">
+                <img style="width: 45px;height: 45px;border-radius:50%;" class="text-center" ng-src="{{nursePeople.avatarUrl}}">
+                <p class="overflow-line-1 font-color-global-lighter h3 display-block text-center padding-height-sm" ng-bind="nursePeople.name"></p>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="CommonButtonRed margin-height-xl" ng-click="readOverClick()" ng-hide="read == true">我已读完</div>
+</div>

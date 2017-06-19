@@ -1,0 +1,19 @@
+<div class="hefeiEvaluationInfoController background-color-white">
+    <div class="clear-float padding-top-md padding-right-md padding-bottom-md">
+        <div class="float-left padding-right-md img-width-square-xs img-height-square-xs">
+            <img ng-src="{{data.patient.avatarUrl}}" class="img-width-square-xs img-height-square-xs radius-md">
+        </div>
+        <div class="float-left content-width">
+            <div class="content-width display-inline float-left">
+                <h3 class="h3 font-color-global-base display-inline float-left padding-right-sm" ng-bind="data.patient.name.length>5?data.patient.name.slice(0,5)+'...':data.patient.name"></h3>
+                <div class="stars-width float-left">
+                    <div class="stars-yellow" style="width:{{data.score}}%;"></div>
+                </div>
+                <h4 class="h4 font-color-global-lightest float-right" ng-bind="markDate"></h4>
+            </div>
+            <div class="h4 float-left font-color-global-lighter padding-top-xs word-line-height {{isShow == true? '':'overflow-line-2'}}"
+                 ng-click="onShowContentClick()" ng-bind="data.reviewContent">
+            </div>
+        </div>
+    </div>
+</div>

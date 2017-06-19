@@ -1,0 +1,43 @@
+.hefeiOrderListController {
+  .border-line-4-bottom {
+    border-bottom: remSize(4) solid;
+  }
+
+  .margin-bottom-4 {
+    margin-bottom: remSize(4);
+  }
+  .order-status-item {
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+  }
+  .nav-width {
+    width: remSize(100);
+  }
+  .padding-bottom-1 {
+    padding-bottom: 1px;
+  }
+  .more-order {
+    width: 4rem;
+    padding-top: remSize(22);
+    padding-bottom: remSize(22);
+    @extend .background-color-white;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .order-padding-top-50 {
+    padding-top: remSize(100);
+  }
+  .margin-top-2 {
+    margin-top: remSize(2);
+  }
+  margin-bottom-2 {
+    margin-bottom: remSize(2);
+  }
+  .orderNull {
+    img {
+      width: remSize(280);
+      margin-top: remSize(280);
+    }
+  }
+}

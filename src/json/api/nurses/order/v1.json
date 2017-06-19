@@ -1,0 +1,104 @@
+{
+  "result": {
+    "success": true,
+    "code": 1
+  },
+  "order": [
+    {
+      "orderId": 1,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http://www.3lian.com/d/file/201610/27/9d5570c1af152386cb28c642598d08eb.jpg"
+      },
+      "statusAction": {
+        "statusType": 1,
+        "statusDisplayMsg": "待接单",
+        "statusColor": "red"
+      },
+      "patient": {
+        "patientId": 123,
+        "phone": "18612345678",
+        "name": "张富贵",
+        "gender": "男",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "availableAction": [
+        {
+          "title": "接单",
+          "action": "accept"
+        }
+      ],
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 2,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http://www.3lian.com/d/file/201610/27/9d5570c1af152386cb28c642598d08eb.jpg"
+      },
+      "statusAction": {
+        "statusType": 1,
+        "statusDisplayMsg": "待接单",
+        "statusColor": "red"
+      },
+      "patient": {
+        "patientId": 123,
+        "phone": "18612345678",
+        "name": "张富贵",
+        "gender": "男",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "availableAction": [
+        {
+          "title": "接单",
+          "action": "accept"
+        }
+      ],
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 3,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http://www.3lian.com/d/file/201610/27/9d5570c1af152386cb28c642598d08eb.jpg"
+      },
+      "statusAction": {
+        "statusType": 1,
+        "statusDisplayMsg": "待接单",
+        "statusColor": "red"
+      },
+      "patient": {
+        "patientId": 123,
+        "phone": "18612345678",
+        "name": "张富贵",
+        "gender": "男",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "availableAction": [
+        {
+          "title": "接单",
+          "action": "accept"
+        }
+      ],
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    }
+  ]
+}

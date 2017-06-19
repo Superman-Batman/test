@@ -1,0 +1,212 @@
+{
+  "result": {
+    "success": true
+  },
+  "choiceResultList": [
+    {
+      "id": 863,
+      "toolId": 305,
+      "scoreFrom": "15",
+      "scoreTo": "100",
+      "title": "预后最好",
+      "resultExplain": "",
+      "resultRank": 0,
+      "createTime": 1477453109000
+    },
+    {
+      "id": 864,
+      "toolId": 305,
+      "scoreFrom": "0",
+      "scoreTo": "13",
+      "title": "预后最差",
+      "resultExplain": "",
+      "resultRank": 1,
+      "createTime": 1477453109000
+    },
+    {
+      "id": 865,
+      "toolId": 305,
+      "scoreFrom": "8",
+      "scoreTo": "14",
+      "title": "恢复机会大",
+      "resultExplain": "",
+      "resultRank": 2,
+      "createTime": 1477453109000
+    },
+    {
+      "id": 866,
+      "toolId": 305,
+      "scoreFrom": "3",
+      "scoreTo": "5",
+      "title": "潜在死亡危险",
+      "resultExplain": "",
+      "resultRank": 3,
+      "createTime": 1477453109000
+    }
+  ],
+  "questionList": [
+    {
+      "id": 1724,
+      "title": "睁眼",
+      "type": 2,
+      "toolId": 305,
+      "rank": 0,
+      "createTime": 1477453109000,
+      "choiceOptionList": [
+        {
+          "id": 5667,
+          "questionId": 1724,
+          "optionRank": 2,
+          "content": "呼之睁眼",
+          "score": "3",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5668,
+          "questionId": 1724,
+          "optionRank": 3,
+          "content": "自行睁眼",
+          "score": "4",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5665,
+          "questionId": 1724,
+          "optionRank": 0,
+          "content": "不睁眼",
+          "score": "1",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5666,
+          "questionId": 1724,
+          "optionRank": 1,
+          "content": "疼痛睁眼",
+          "score": "2",
+          "createTime": 1477453109000
+        }
+      ]
+    },
+    {
+      "id": 1725,
+      "title": "语言",
+      "type": 1,
+      "toolId": 305,
+      "rank": 1,
+      "createTime": 1477453109000,
+      "choiceOptionList": [
+        {
+          "id": 5669,
+          "questionId": 1725,
+          "optionRank": 0,
+          "content": "不能发音",
+          "score": "1",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5670,
+          "questionId": 1726,
+          "optionRank": 1,
+          "content": "仅能发音，不能说话",
+          "score": "2",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5671,
+          "questionId": 1727,
+          "optionRank": 2,
+          "content": "能说话，不能对答",
+          "score": "3",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5672,
+          "questionId": 1728,
+          "optionRank": 3,
+          "content": "能对答，说话有误",
+          "score": "4",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5673,
+          "questionId": 1729,
+          "optionRank": 4,
+          "content": "能对答，定位准确",
+          "score": "5",
+          "createTime": 1477453109000
+        }
+      ]
+    },
+    {
+      "id": 1726,
+      "title": "运动",
+      "type": 1,
+      "toolId": 305,
+      "rank": 2,
+      "createTime": 1477453109000,
+      "choiceOptionList": [
+        {
+          "id": 5675,
+          "questionId": 1726,
+          "optionRank": 1,
+          "content": "刺痛时，四肢过低伸展",
+          "score": "2",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5674,
+          "questionId": 1726,
+          "optionRank": 0,
+          "content": "刺痛时，四肢松弛，无反应",
+          "score": "1",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5676,
+          "questionId": 1726,
+          "optionRank": 2,
+          "content": "刺痛时，双上肢过度屈曲",
+          "score": "3",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5679,
+          "questionId": 1726,
+          "optionRank": 5,
+          "content": "能完成吩咐的任务",
+          "score": "6",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5677,
+          "questionId": 1726,
+          "optionRank": 3,
+          "content": "刺痛时，四肢回缩",
+          "score": "4",
+          "createTime": 1477453109000
+        },
+        {
+          "id": 5678,
+          "questionId": 1726,
+          "optionRank": 4,
+          "content": "手能指向刺痛部位",
+          "score": "5",
+          "createTime": 1477453109000
+        }
+      ]
+    }
+  ],
+  "tool": {
+    "id": 305,
+    "name": "格拉斯昏迷",
+    "type": 1,
+    "status": 1,
+    "createTime": 1477453109000,
+    "pid": 305,
+    "version": "1",
+    "iconColor": "green",
+    "rank": null,
+    "showIndex": 0,
+    "updateTime": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "result": {
+    "success": true,
+    "code": 0
+  },
+  "agreePushStatus": 1,
+  "orderIncome": 1200,
+  "nurseId":1,
+  "availableService": {
+    "item":[
+      {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "status": 0,
+        "price": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg",
+        "desc": "根据患者病情状态，进行导尿管道的常规护理操作，要求避免管道感染等并发症"
+      }
+    ]
+  },
+  "aveScore":53,
+  "review": [
+    {
+      "patient": {
+        "patientId": 45273,
+        "name": "张富贵",
+        "avatarUrl": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "reviewTime": 1232435354,
+      "score": 80,
+      "reviewContent": "杨老师非常认真，而且手法纯熟，护理玩之后管路清洁许多，希望下次还是杨老师来."
+    }
+  ]
+}

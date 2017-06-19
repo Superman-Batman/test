@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="YHZS">
+<head>
+    <meta charset="UTF-8">
+    <title>优护家</title>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"
+          id="viewport">
+    <script src="js/lib/zepto.min.js"></script>
+    <script src="js/lib/angular.js"></script>
+    <script src="js/lib/angular-ui-router.min.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/echarts.simple.min.js"></script>
+    <script src="js/lib/iscroll.js"></script>
+    <script src="js/lib/json2.js"></script>
+    <script src="js/lib/webim.js"></script>
+    <script src="js/all.js?rev=@@hash"></script>
+    <link href="iconfont/commonIconfont/iconfont.css?rev=@@hash" rel="stylesheet">
+    <link href="iconfont/projectIconfont/iconfont.css?rev=@@hash" rel="stylesheet">
+    <link href="css/lib/swiper.css" rel="stylesheet">
+    <link href="css/main.css?rev=@@hash" rel="stylesheet">
+</head>
+<body class="debug">
+<style>
+    body > div {
+        height: 100px;
+        position: relative;
+        background-color: lightgray;
+    }
+</style>
+<div class="margin-xs padding-xs">
+</div>
+<div class="margin-sm padding-sm">
+</div>
+<div class="margin-md padding-md">
+</div>
+<div class="margin-lg padding-lg">
+</div>
+<div class="margin-left-md"></div>
+<p class="h1">
+    h1
+</p>
+<p class="h2">
+    h2
+</p>
+<p class="h3">
+    h3
+</p>
+<p class="h4">
+    h4
+</p>
+<p class="h5">
+    h5
+</p>
+<p class="h6">
+    h6
+</p>
+<p class="h7">
+    h7
+</p>
+<p class="h1">
+    tag demo
+    <span class="tag-lg background-color-yellow font-color-white">tag-lg</span>
+    <span class="tag-md background-color-yellow font-color-white">tag-md</span>
+    <span class="tag-sm background-color-yellow font-color-white">tag-sm</span>
+</p>
+<div class="margin-md img-oblong-md">
+    <div class="iconfont-md">
+    </div>
+</div>
+<div class="margin-top-md"></div>
+<div class="margin-left-md"></div>
+<div class="margin-right-md"></div>
+<div class="margin-bottom-md"></div>
+<div class="padding-top-md"></div>
+<div class="padding-left-md"></div>
+<div class="padding-right-md"></div>
+<div class="padding-bottom-md"></div>
+<div class="padding-width-md margin-width-md padding-height-md margin-height-md"></div>
+<script>
+    <!--margin+padding-->
+    var pos = ['-left', '-right', '-top', '-bottom'];
+    var size = ['-xs', '-sm', '-md', '-lg'];
+    var i, j;
+    var posT, posC;
+    for (i = 0; i < pos.length; i++) {
+        for (j = 0; j < size.length; j++) {
+            $('.margin' + pos[i] + size[j]).append('<div class="margin' + pos[i] + size[j] + '-debug"></div>');
+            $('.padding' + pos[i] + size[j]).append('<div class="padding' + pos[i] + size[j] + '-debug"></div>');
+        }
+    }
+    for (j = 0; j < size.length; j++) {
+        posT = '';
+        posC = ['-left', '-right', '-top', '-bottom'];
+        for (i = 0; i < posC.length; i++) {
+            $('.margin' + posT + size[j]).append('<div class="margin' + posC[i] + size[j] + '-debug"></div>');
+            $('.padding' + posT + size[j]).append('<div class="padding' + posC[i] + size[j] + '-debug"></div>');
+        }
+        posT = '-height';
+        posC = ['-top', '-bottom'];
+        for (i = 0; i < posC.length; i++) {
+            $('.margin' + posT + size[j]).append('<div class="margin' + posC[i] + size[j] + '-debug"></div>');
+            $('.padding' + posT + size[j]).append('<div class="padding' + posC[i] + size[j] + '-debug"></div>');
+        }
+        posT = '-width';
+        posC = ['-left', '-right'];
+        for (i = 0; i < posC.length; i++) {
+            $('.margin' + posT + size[j]).append('<div class="margin' + posC[i] + size[j] + '-debug"></div>');
+            $('.padding' + posT + size[j]).append('<div class="padding' + posC[i] + size[j] + '-debug"></div>');
+        }
+    }
+</script>
+</body>
+</html>

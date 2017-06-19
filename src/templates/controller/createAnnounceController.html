@@ -1,0 +1,34 @@
+<div class="createAnnouncementController editAnnouncementController">
+    <div class="background-color-white h0">
+        <div class="border-color-global-base border-line-bottom padding-right-md margin-left-md h3 padding-height-lg">
+            <span class="setTemplateSpan inline-block">名称</span>
+            <input type="text" class="font-color-global-lighter h3" ng-model="title"
+                   placeholder="请输入公告名称" style="width: 65%;">
+        </div>
+    </div>
+
+    <div class="background-color-white border-color-global-base border-line-bottom h0">
+        <div class="triggerInput border-color-global-base border-line-bottom padding-right-md margin-left-md h3 padding-height-lg">
+            <span class="setTemplateSpan inline-block">日期</span>
+            <input class="font-color-global-lighter h3 minWidth maxHeight" type="date" id="admission_time" ng-model="startTime" ng-click="setDate()">
+                   <!--ng-model="startTime" readonly ng-change="setAdmissionTime()" ng-click="setDate()">-->
+        </div>
+        <div class="padding-right-md margin-left-md h3 padding-height-lg h0">
+            <span class="setTemplateSpan inline-block">展示天数</span>
+            <input type="number"
+                   class="font-color-global-lighter h3 input border-line-bottom border-color-green text-center"
+                   ng-model="day">
+            <span class="font-color-global-lighter">天</span>
+        </div>
+    </div>
+
+    <div class="background-color-white margin-top-sm h0">
+        <div class="padding-right-md margin-left-md h3 clear-float padding-bottom-md">
+            <label class="display-block padding-height-md">公告内容</label>
+            <textarea id="textValue" placeholder="请输入公告内容"
+                      class="font-color-global-lighter h4 display-block line-height textarea"
+                      ng-model="content" rows="4" style="width: 100%;"></textarea>
+        </div>
+    </div>
+    <div class="CommonButtonRed margin-height-xl" ng-click="saveFollowUpRecord()">发布</div>
+</div>

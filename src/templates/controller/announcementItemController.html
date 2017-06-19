@@ -1,0 +1,11 @@
+<div class="createAnnouncementController padding-bottom-sm ">
+    <h1 class="padding-height-md font-weight-bold overflow-line-2" ng-bind="data.title"></h1>
+    <div class="margin-bottom-sm h0">
+        <span class="h3 font-color-global-lighter" ng-bind="data.author.name"></span>
+        <i class="h3 text-center projectIconfont margin-right-sm margin-left-md font-color-global-lighter">&#xe68e;</i>
+        <p class="display-inline"><span class="h3 font-color-global-lighter"
+                                        ng-bind="(data.startTime | date: 'MM.dd') +'—'"></span><span
+                class="h3 font-color-global-lighter" ng-bind="data.endTime | date: 'MM.dd'"></span></p>
+    </div>
+    <p class="h3 line-height font-color-global-lighter overflow-line-4" ng-bind="data.content"></p>
+</div>

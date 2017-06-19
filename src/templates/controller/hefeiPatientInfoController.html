@@ -1,0 +1,61 @@
+<div class="hefeiOrderInfoController background-color-white">
+    <div class="padding-top-md padding-left-md padding-right-md">
+            <!--<div class="clear-float height-90">-->
+                <!--<img ng-src="{{orderDetail.item.pic}}" class="img-width-square-xs img-height-square-xs float-left radius-md margin-right-md">-->
+                <!--<div class="display-inline">-->
+                    <!--<p class="h3" ng-bind="orderDetail.item.title"></p>-->
+                    <!--<p class="h3 font-color-yellow padding-top-xs" ng-bind="(orderDetail.item.price) + '元'"></p>-->
+                <!--</div>-->
+                <!--<div class="float-right">-->
+                    <!--<p class="h4 title text-right"><span class="font-color-{{orderDetail.status.color}}" ng-bind="orderDetail.status.statusDisplayMsg"></span></p>-->
+                    <!--<p class="h4 text-right padding-top-xs font-color-{{orderDetail.status.color}}" ng-bind="orderDetail.status.statusDescMsg"></p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <div class="clear-float">
+            <img ng-src="{{orderDetail.item.pic}}"
+                 class="img-width-square-xs img-height-square-xs float-left radius-md margin-right-md">
+            <div class="float-left order-width">
+                <span class="h3 font-color-global-base overflow-line-1 float-left" ng-bind="orderDetail.item.name"></span>
+                <span class="h4 float-right font-color-{{orderDetail.statusAction.color}}"
+                      ng-bind="orderDetail.statusAction.statusDisplayMsg"></span>
+                <!--<span class="inline-block projectIconfont font-color-global-base h4 position-fixed-right">&#xe649;</span>-->
+            </div>
+            <div class="padding-top-sm float-left order-width">
+                    <span class="h4 font-color-yellow float-left"
+                          ng-bind="(orderDetail.item.price / 100 | currency: '':2) + '元'"></span>
+                <span class="h4 float-right font-color-{{orderDetail.statusAction.color}}" ng-if="orderDetail.statusAction.statusDescMsg"
+                      ng-bind="orderDetail.statusAction.statusDescMsg">
+                    <span class="h4 float-right font-color-{{orderDetail.statusAction.color}} ng-if=orderDetail.statusAction.amount" ng-bind="orderDetail.statusAction.amount"></span>
+                </span>
+            </div>
+        </div>
+            <h4 class="h4 font-color-global-lighter margin-top-md content-line-height {{isShowDesc == true? '': 'overflow-line-2'}}" ng-click="onShowDescClick()" ng-bind="orderDetail.item.desc"></h4>
+            <div>
+                <p class="h4 padding-top-md font-color-global-lighter"
+                   ng-bind="'订单编号：' + orderDetail.orderNo"></p>
+                <div class="h4 padding-top-sm font-color-global-lighter">患者信息：<span class="h4 font-color-global-lighter" ng-bind="orderDetail.patient.name"></span>
+                    <span class="h4 font-color-global-lighter padding-left-xs" ng-bind="orderDetail.patient.gender == 1? '男': '女'"></span>
+                    <span class="h4 font-color-global-lighter padding-left-xs" ng-bind="orderDetail.patient.age + '岁'"></span>
+                </div>
+                <p class="h4 padding-top-sm font-color-global-lighter">联系电话：<a class="h4 phone-color" href="tel:{{orderDetail.patient.phone}}" ng-bind="orderDetail.patient.phone"></a></p>
+                <p class="h4 padding-top-sm font-color-global-lighter">服务时间：<span class="h4 font-color-global-lighter" ng-bind="orderDate"></span></p>
+                <div class="h4 font-color-global-lighter padding-top-sm clear-float">
+                    <span class="h4 address-title-width float-left">服务地址：</span>
+                    <span class="h4 display-inline address-content-width float-left" ng-bind="orderDetail.patient.address"></span>
+                </div>
+                    <p class="h4 font-color-darkGreen padding-height-sm">
+                        <i class="projectIconfont padding-right-sm h4">&#xe68e;</i><span class="h4 font-color-darkGreen" ng-bind="'耗时' + orderDetail.item.period / 60 + '分钟'"></span>
+                    </p>
+            </div>
+        <div class="background-color-white"
+             ng-if="cancelBtn.status == true && needHelpBtn.status == true">
+            <div class="clear-float padding-height-sm background-color-white border-line-top-dashed border-color-global-base">
+             <span class="h3 radius-md display-inline float-right btn-width-height-size text-center padding-top-xs border-color-global-base font-color-global-base padding-bottom-xs"
+                   ng-click="onCancelOrderClick()" ng-if="cancelBtn.status == true" ng-bind="cancelBtn.title"></span>
+                <span class="h3 radius-md display-inline float-right btn-width-height-size text-center padding-top-xs border-color-global-base font-color-global-base padding-bottom-xs margin-right-md"
+                      ng-click="onApplyRunClick()" ng-if="needHelpBtn.status == true"
+                      ng-bind="needHelpBtn.title"></span>
+            </div>
+        </div>
+    </div>
+</div>

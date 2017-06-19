@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd494345-3ad3-4d1b-8b7e-9c3392dd585e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/announce.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/dataNull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g1_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g1_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g2_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g2_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g3_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g3_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g4_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g4_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g5_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/g5_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/icon_xingji1_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/icon_xingji1_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/orderNull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/star_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/star_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requestUrl.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beforeRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/changeInfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chatControllerG1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chatControllerG2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chatControllerG3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chatControllerS1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chatControllerS2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/choiceClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/choiceColor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/choiceDay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/choiceHopital.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/choiceOffice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/choiceVisit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/createCalender.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/YHZS.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/base.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/_main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/hSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/iconSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/imgSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/radiusSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/spaceSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/baseSizes/tagSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/_main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/basicInfoController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/beforeRecordController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/blackListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/changeInfoController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/chatController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/chatListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/choiceClassController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/choiceColorController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/classListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/common/commonController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/common/confirmController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/common/loadingController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/common/navbarController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/common/tabbarController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/common/toastController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/contentListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/createAnnouncementController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/doVisitController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/dutyCalendarController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/dutyChangeController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/dutyListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/guidePageController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiEvaluationInfoController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiNurseToolController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiOrderDetailController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiOrderInfoController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiOrderListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiRefundController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiServiceConfigController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiServiceSelectController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiTermIndexController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/hefeiWorkListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/inviteNurseController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/loginController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/messageTagStateController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/nurseDetailController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/nurseListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/nursePlanController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/patientDetailController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/patientListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/patientRelationController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/patientTag.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/patientTagManageController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/personalInformationController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/professionInfoController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/recentCalenderController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/registerController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/resetController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/scheduleController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/selectListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/setTemplateController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/sortController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/statisticController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/statisticsCountController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/submitController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/toolListController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/userCenter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/controller/writeRecordController.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/debug.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/debug_old.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/function/_main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/function/remSize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/lib/mui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/lib/swiper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/lib/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/demoPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doVisit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dutyCalendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dutyChange.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dutyList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/editVisit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guidePage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/demo_fontclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/demo_symbol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/demo_unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/commonIconfont/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/demo_fontclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/demo_symbol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/demo_unicode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iconfont/projectIconfont/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/announcementItemController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/basicInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/beforeRecordController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/blackListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/changeInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/chatController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/chatListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/choiceClassController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/choiceColorController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/choiceDayController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/choiceDepartmentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/choiceHospitalController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/choiceVisitController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/classListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/common/confirmController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/common/loadingController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/common/navbarController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/common/showTextController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/common/tabbarController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/common/toastController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/createAnnounceController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/doVisitController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/dutyCalendarController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/dutyChangeController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/dutyListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/editVisitController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/guidePageController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiEvaluationInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiInvalidOrderController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiNurseToolDetailController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiOrderInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiPatientInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiRefundController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiServiceContentController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/hefeiServiceSelectController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/loginController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/nurseTagManageController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/patientListController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/patientRelationController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/patientTagManageController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/professionInfoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/scheduleController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/setOrderController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/setTemplateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/sortController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/startVisitController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/directive/writeRecordController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/external/ALert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/external/Array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/external/Date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/external/Object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/external/TextArea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/external/inputTrigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/andFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/confirm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/getClientInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/getUserAgent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/initRem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/loading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/navbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/oneAPM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/orFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/patientFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/requestUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/setTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/shence.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/tabbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/timestampMarker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/toast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/txIM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/factory/wx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/Aliyun-OSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/aLiApp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/echarts.simple.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/iscroll-infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/iscroll-lite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/iscroll-probe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/iscroll-zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/iscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/mui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/sensorsdata.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/swiper.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/swiper.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/swiper.jquery.umd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/swiper.jquery.umd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/swiper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/tingyun-rum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/webim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/zepto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/zepto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/lib/zhugeIO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/ng-config/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/ng-config/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/ng-config/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/aletrNurseInfoStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/allPatientListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/alterNurseTagStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/basicInfoStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/beforeRecordStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/blackListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/chatStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/choiceClassStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/choiceColorStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/choiceDayStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/choiceDepartmentStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/choiceHospitalStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/choiceVisitStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/classListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/contentListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/createAnnouncementStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/createCalenderStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/dutyCalendarStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/dutyChangeStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/dutyListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/editAnnouncementStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/editVisitStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/fakeMainPageStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/guidePageStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/hefeiNurseToolStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/hefeiOrderDetailStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/hefeiOrderListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/hefeiServiceConfigStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/hefeiServiceSelectStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/inputConfirmDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/inviteNurseStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/loginStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/manageStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/messageContentStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/messageListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/messageTagStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/nurseDetailStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/nurseListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/nursePlanCounterStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/nurseTagManageStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/nurseToolCounterStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/otherPatientListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/patientDetailStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/patientListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/patientRelationStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/patientTagManageStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/patientTagStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/professionInfoStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/recentCalenderStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/selectListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/setOrderStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/setTemplateStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/settingStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/sortStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/startVisitStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/statisticStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/statisticsCountStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/tagManageStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/toolListStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/userCenterStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/state/writeRecordStateController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/departments.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/departments/departmentId/tags/nurses.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/departments/departmentId/tags/users.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/departments/departmentId/users/tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/followup/pages/templates.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/hospitals/departments.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/ns/planCount.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/ns/toolCount.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/app/version.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/event/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/events/announcement/v1/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/events/events.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/events/followup/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/events/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/messagePage.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/calendars/v2/events.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/cms-content.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/followup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/followup/pages.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/followup/pages/templates.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/followup/pages/templates/alerts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/followup/pages/templates/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/basic-info.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/contacts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/info.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/invite-via-sms.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/occupational-info.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/rosters.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/id/signature.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/im/fromId/to-nurse/toId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/im/fromId/to-user/toId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/im/group-chats.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/im/me.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/metadata/plan.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/metadata/shence.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/metadata/tool.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/msg/im/fromId/to-nurse/toId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/msg/im/fromId/to-user/toId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/msg/new-im.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/msg/wx-template-msg/followup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/nurseId/colleagues.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/nurseId/info.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/nurseId/patients.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/accept/v1/orderId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/nurseId/pushService.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/nurseId/serviceManager.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/completeService.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/detail/7.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/nurseCancel.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/nurseComplete.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/orderId/nurseOpinion.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/refund/orderId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/serviceId/updateService.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/tool.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v1/workbench.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/order/v2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/departments/departmentId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/departments/departmentId/by-person.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/rosterId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/schedule/append/batch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/schedule/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/schedules/append.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/schedules/batch-append.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/rosters/schedules/rosterScheduleIds.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/signout.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/signup/phone-captcha.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/signup/phone.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/tags/departments/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/users/userId/info.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/nurses/wx-template-msg/followup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/organizations.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/shence/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/shence/planCount.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/shence/toolCount.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/users/id/basic-info.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/users/id/contacts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/users/id/tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/users/tags.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/users/tags/category.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/wbreaker/v1/nurses/nurseId/tools/toolId.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/api/wbreaker/v1/nurses/nurseId/tools/toolId/answer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/departments/departmentId/tags/nurses.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/departments/id.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/json/yh/id1/id2/demo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/messageTag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/personalInformation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/recentCalender.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/schedule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/setOrder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/setTemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/startVisit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/submit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/common/confirmController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/common/loadingController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/common/navbarController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/common/showTextController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/common/tabbarController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/common/toastController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/announcementItemController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/basicInfoController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/beforeRecordController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/blackListController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/changeInfoController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/chatController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/chatListController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/choiceClassController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/choiceColorController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/choiceDayController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/choiceDepartmentController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/choiceHospitalController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/choiceVisitController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/classListController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/createAnnounceController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/doVisitController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/dutyCalendarController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/dutyChangeController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/dutyListController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/editVisitController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/guidePageController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiEvaluationInfoController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiInvalidOrderController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiNurseToolDetailController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiOrderInfoController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiPatientInfoController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiRefundController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiServiceContentController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/hefeiServiceSelectController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/loginController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/nurseTagManageController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/patientListController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/patientRelationController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/patientTagManageController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/professionInfoController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/scheduleController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/setOrderController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/setTemplateController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/sortController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/startVisitController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/controller/writeRecordController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/aletrNurseInfoState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/allPatientListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/alterNurseTagState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/basicInfoState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/beforeRecordState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/blackListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/chatState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/choiceClassState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/choiceColorState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/choiceDayState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/choiceDepartmentState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/choiceHospitalState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/choiceVisitState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/classListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/contentListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/createAnnouncementState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/createCalenderStateController.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/doVisitState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/dutyCalendarState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/dutyChangeState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/dutyListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/editAnnouncementState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/editVisitState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/fakeMainPageState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/guidePageState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/hefeiNurseToolState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/hefeiOrderDetailState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/hefeiOrderListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/hefeiServiceConfigState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/hefeiServiceSelectState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/inviteNurseState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/loginState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/manageState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/messageContentState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/messageListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/messageTagState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/nurseDetailState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/nurseListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/nursePlanCounterState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/nurseTagManageState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/nurseToolCounterState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/otherPatientListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/patientDetailState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/patientRelationState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/patientTagManageState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/patientTagState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/professionInfoState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/pushPatientListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/recentCalenderState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/scheduleState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/selectListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/setNurseData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/setOrderState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/setTemplateState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/settingState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/sortState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/startVisitState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/statisticState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/statisticsCountState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/tagManageState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/toolListState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/userCenterState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/state/writeRecordState.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/textAreaDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/writeRecord.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="478" />
+    <option name="y" value="111" />
+    <option name="width" value="1400" />
+    <option name="height" value="937" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd494345-3ad3-4d1b-8b7e-9c3392dd585e" name="Default" comment="" />
+      <created>1497848863416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497848863416</updated>
+      <workItem from="1497848865479" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="478" y="111" width="1400" height="937" extended-state="0" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

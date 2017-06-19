@@ -1,0 +1,118 @@
+.hefeiNurseToolController {
+  .swiper-slide {
+
+  }
+  li.toolResult {
+    width: 16rem;
+    padding-top: remSize(30);
+    padding-bottom: remSize(30);
+    h2 {
+      margin-bottom: remSize(20);
+    }
+    h2, p {
+      margin-left: remSize(30);
+      margin-right: remSize(30);
+    }
+    p {
+      line-height: 1.5;
+      margin-bottom: remSize(20)
+    }
+  }
+  li.toolOption {
+    div{
+      line-height: 1.5;
+      box-sizing: border-box;
+      padding-top: 0.237rem;
+      padding-bottom: 0.237rem;
+    }
+    .active {
+      @extend .border-color-pink, .font-color-pink;
+    }
+    .short {
+      width: (16rem - 0.64rem*3)/2;
+    }
+    .long {
+      width: 16rem - 0.64rem*2;
+    }
+  }
+
+  //li.toolInputOption {
+  //  width: 16rem;
+  //  div {
+  //    margin-left: remSize(30);
+  //    margin-top: remSize(15);
+  //    float: left;
+  //    box-sizing: border-box;
+  //    width: 16rem - 0.64rem*2;
+  //    label {
+  //      height: remSize(80);
+  //      line-height: remSize(60);
+  //      width: 3rem;
+  //      overflow: hidden;
+  //      display: block;
+  //      float: left;
+  //    }
+  //    input[type='text'], textarea {
+  //      width: 10rem;
+  //      border: 1px solid !important;
+  //      padding:remSize(10);
+  //      float: right;
+  //    }
+  //  }
+  //}
+  //li.toolImgOption {
+  //  width: 16rem;
+  //  .active {
+  //    h3 {
+  //      @extend .font-color-green;
+  //    }
+  //    img {
+  //      filter: brightness(.7);
+  //    }
+  //  }
+  //  div {
+  //    width: (16rem - 0.64rem*3)/2;
+  //    float: left;
+  //    //height: remSize(80);
+  //    //line-height: remSize(76);
+  //    box-sizing: border-box;
+  //    img {
+  //      width: (16rem - remSize(30)*3)/2;
+  //      height: (16rem - remSize(30)*3)/2*2/3;
+  //      margin: 0 auto;
+  //    }
+  //    h3 {
+  //      @extend .font-color-global-lighter;
+  //      height: 1.8rem;
+  //    }
+  //  }
+  //}
+  .prev, .next {
+    position: fixed;
+    bottom: remSize(0);
+    //width: (16rem - remSize(30)*3)/2;
+    width: 8rem;
+    z-index: 12;
+    height: remSize(80);
+    line-height: remSize(80);
+  }
+  .prev {
+    left: remSize(0);
+  }
+  .next {
+    right: remSize(0);
+  }
+  .actionsBK {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: remSize(80)+remSize(30)*2;
+    position: fixed;
+    z-index: 11;
+    @extend .background-color-global-base;
+  }
+  .actions {
+    height: remSize(80)+remSize(30)*2;
+    width: 16rem;
+  }
+}

@@ -1,0 +1,62 @@
+<div class="hefeiOrderInfoController background-color-white border-color-global-base border-line-bottom">
+    <div class="padding-top-md padding-left-md padding-right-md">
+        <a>
+            <!--<div class="clear-float">-->
+            <!--<img ng-src="{{item.pic}}"-->
+            <!--class="img-width-square-xs img-height-square-xs float-left radius-md margin-right-md">-->
+            <!--<div class="display-inline">-->
+            <!--<h3 class="h3" ng-bind="item.title"></h3>-->
+            <!--<h3 class="h3 font-color-yellow padding-top-sm" ng-bind="(item.price / 100) + '元'"></h3>-->
+            <!--</div>-->
+            <!--<div class="float-right">-->
+            <!--<p class="h4 title more text-righth"><span class="font-color-{{statusAction.color}}" ng-bind="statusAction.statusDisplayMsg"></span></p>-->
+            <!--<p class="h4 padding-right-md text-right padding-top-xs font-color-{{statusAction.color}}" ng-bind="statusAction.statusDescMsg"></p>-->
+            <!--</div>-->
+            <!--</div>-->
+            <div class="clear-float" ng-click="onRouteDetailClick(data.orderId, action, data.patient.patientId)">
+                <img ng-src="{{item.pic}}"
+                     class="img-width-square-xs img-height-square-xs float-left radius-md margin-right-md">
+                <div class="float-left order-width">
+                    <span class="h3 font-color-global-base overflow-line-1 float-left" ng-bind="item.name"></span>
+                    <span class="h4 float-right font-color-{{statusAction.statusColor}} margin-right-md"
+                          ng-bind="statusAction.statusDisplayMsg"></span>
+                    <span class="inline-block projectIconfont font-color-global-lighter h4 position-fixed-right margin-top-1">&#xe600;</span>
+                </div>
+                <div class="padding-top-sm float-left order-width">
+                    <span class="h4 font-color-yellow float-left"
+                          ng-bind="(item.price / 100 | currency: '':2) + '元'"></span>
+                    <span class="h4 float-right font-color-{{statusAction.statusColor}} "
+                          ng-if="statusAction.statusDescMsg"
+                          ng-bind="statusAction.statusDescMsg"></span>
+                </div>
+            </div>
+
+            <div>
+                <p class="h4 padding-top-md font-color-global-lighter"
+                   ng-bind="'订单编号：' + data.orderNo"></p>
+                <p class="h4 padding-top-sm font-color-global-lighter">
+                    <!--患者信息：{{patient.name}}&nbsp&nbsp{{patient.gender == 1? '男': '女'}}&nbsp&nbsp{{patient.age}}岁-->
+                    患者信息：<span class="h4 font-color-global-lighter" ng-bind="patient.name"></span>
+                    <span class="h4 font-color-global-lighter padding-left-xs" ng-bind="patient.gender == 1? '男': '女'"></span>
+                    <span class="h4 font-color-global-lighter padding-left-xs" ng-bind="patient.age + '岁'"></span>
+                </p>
+                <p class="h4 padding-top-sm">联系电话：<a class="h4 phone-color" href="tel:{{patient.phone}}">{{patient.phone}}</a>
+                </p>
+                <p class="h4 padding-top-sm font-color-global-lighter">服务时间：<span class="h4 font-color-global-lighter" ng-bind="orderDate"></span>
+                </p>
+                <div class="h4 font-color-global-lighter padding-top-sm clear-float">
+                    <span class="h4 address-title-width float-left">服务地址：</span>
+                    <span class="h4 display-inline address-content-width float-left" ng-bind="patient.address"></span>
+                </div>
+                <p class="h4 font-color-darkGreen border-color-global-base {{action == undefined ? '': 'border-line-bottom-dashed'}} padding-height-sm">
+                    <i class="projectIconfont padding-right-sm h4">&#xe68e;</i>
+                    <span class="h4 font-color-darkGreen" ng-bind="'耗时' + item.period / 60 + '分钟'"></span>
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="margin-top-sm clear-float margin-height-sm padding-right-md" ng-if="action != undefined">
+        <span class="h3 radius-md font-color-pink display-inline float-right btn-width-height-size text-center padding-top-xs padding-bottom-xs"
+              ng-click="onOrderClick()" ng-bind="action.title"></span>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.createAnnouncementController {
+  .input {
+    width: 2.13333rem;
+  }
+  .many-duty {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 900000;
+    height: remSize(100);
+    line-height: remSize(100);
+  }
+  .line-height {
+    line-height: remSize(50);
+  }
+  .li-group {
+    width: remSize(125);
+  }
+  .img {
+    width: remSize(110);
+    height: remSize(110);
+  }
+  .position-right-img {
+    position: absolute;
+    right: remSize(30);
+    top: remSize(120);
+  }
+  .position-right-imgs {
+    position: absolute;
+    right: remSize(30);
+    top: remSize(20);
+  }
+  .textareas {
+    border: none;
+    resize: none;
+    font-size: 20px;
+  }
+}

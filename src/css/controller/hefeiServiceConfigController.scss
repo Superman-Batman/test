@@ -1,0 +1,52 @@
+.hefeiServiceConfigController {
+  a {
+    .title.more:after {
+      margin-top: 0.2rem;
+    }
+    i{
+      font-size: remSize(50);
+      height: remSize(60);
+      line-height: remSize(60);
+      width: remSize(60);
+    }
+  }
+    .span-size {
+      height: 1.152rem;
+      line-height: 1.152rem;
+    }
+  .item-title {
+    &:before {
+      float: left;
+      width: remSize(3);
+      background-color: #ff8080;
+      content: ' ';
+      height: 0.7rem;
+      display: block;
+      margin-right: remSize(30);
+    }
+  }
+  .star-height {
+    height: remSize(40);
+  }
+
+  .padding-bottom-60 {
+    padding-bottom: remSize(60);
+
+  }
+
+  .stars-width {
+    width: remSize(230);
+    height: remSize(36);
+    //background-image: url('../img/star_01.png');
+    background-image: url('../img/icon_xingji1_05.png');
+    background-size: 1rem auto;
+    //background-size: remSize(40.3) auto;
+  }
+  .stars-yellow {
+    height: remSize(36);
+    //background-image: url('../img/star_02.png');
+    background-image: url('../img/icon_xingji1_03.png');
+    //background-size: remSize(40.3) auto;
+    background-size: 1rem auto;
+  }
+}

@@ -1,0 +1,46 @@
+<div class="hefeiServiceConfigController">
+    <a class="display-block h0 padding-left-md background-color-white" ng-click="onReceiveInfoClick()">
+        <p class="padding-height-md border-line-bottom border-color-global-base more  padding-right-md">
+            <i class="margin-right-md background-color-pink radius-md float-left text-center projectIconfont font-color-white sort">
+                &#xe77b;</i>
+            <span class="h3 display-inline span-size font-color-global-base">接收新订单推送</span>
+            <span id="s-switch" class="mui-switch mui-switch-mini float-right {{data.pushServiceStatus == true ? 'border-color-pink background-color-pink mui-active':''}}">
+                <span class="mui-switch-handle"></span>
+            </span>
+        </p>
+    </a>
+    <a class="display-block h0 padding-left-md background-color-white" ng-click="connectPlatform()">
+        <p class="padding-height-md border-line-bottom border-color-global-base more  padding-right-md">
+            <i class="margin-right-md background-color-water radius-md float-left text-center projectIconfont font-color-white sort">&#xe6e0;</i>
+            <span class="h3 display-inline span-size font-color-global-base">我的收益</span>
+            <span class="h4 float-right title more span-size">
+                <span class="font-color-global-lightest span-size">请联系运营平台进行结算</span>
+            </span>
+        </p>
+    </a>
+    <a class="padding-left-md background-color-white display-block h0" ui-sref="hefeiServiceSelect({nurseId: {{data.nurseId}}})">
+        <p class="padding-height-md padding-right-md">
+            <i class="margin-right-md background-color-orange radius-md float-left text-center projectIconfont font-color-white sort">
+                &#xe61b;</i>
+            <span class="h3 display-inline span-size font-color-global-base">可服务项目
+                <span class="h3 display-inline span-size font-color-global-base" ng-bind="'( '+ availableItemNum + ' ) 项'"></span>
+            </span>
+            <span class="h4 float-right title more span-size">
+                <span class="font-color-global-lightest span-size">修改</span>
+            </span>
+        </p>
+    </a>
+    <div class="background-color-white margin-top-md" ng-if="data.review != undefined">
+        <div class="padding-width-md padding-top-sm padding-bottom-60 border-line-bottom border-color-global-base">
+            <span class="h2 item-title font-color-global-base float-left padding-right-sm">服务评价</span>
+            <div class="stars-width float-left">
+                <div class="stars-yellow" style="width: {{score}}%"></div>
+            </div>
+        </div>
+        <div ng-repeat="evaluationItem in data.review">
+            <div class="margin-left-md {{$index != data.review.length - 1? 'border-line-bottom border-color-global-base': ''}}">
+                <hefei-evaluation-info-controller data="evaluationItem"></hefei-evaluation-info-controller>
+            </div>
+        </div>
+    </div>
+</div>

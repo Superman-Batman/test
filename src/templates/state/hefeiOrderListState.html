@@ -1,0 +1,24 @@
+<div class="hefeiOrderListController">
+    <div class="background-color-white border-color-global-base border-line-bottom order-status-item" style="z-index: 1000;">
+        <a class="align-inline-2 font-color-global-base text-center h3 inline-block float-left"
+           ng-click="onChooseClick(true)">
+            <span class="display-inline padding-bottom-md margin-bottom-4 padding-top-md border-line-4-bottom {{isCanOrder == true? 'font-color-pink border-color-pink': 'border-color-white'}}">
+                <span class="display-inline h3 nav-width margin-top-2">待接单</span>
+            </span>
+        </a>
+        <a class="align-inline-2 font-color-global-base text-center h3 inline-block" ng-click="onChooseClick(false)">
+            <span class="display-inline padding-bottom-md padding-top-md margin-bottom-2 border-line-4-bottom {{isCanOrder != true? 'font-color-pink border-color-pink': 'border-color-white'}}">
+                <span class="display-inline h3 nav-width margin-top-2">已接单</span>
+            </span>
+        </a>
+    </div>
+    <div ng-repeat="orderItem in orderList"  ng-if="orderList !== undefined && orderList.length>0" class="{{$index == 0? 'order-padding-top-50': ''}}">
+        <div class="{{$index != 0? 'margin-top-sm': ''}}">
+            <hefei-order-info-controller data="orderItem" order="order" link="link"></hefei-order-info-controller>
+        </div>
+    </div>
+    <div class="h3 more-order" ng-click="onMoreOrdersClick(isCanOrder)" ng-if="orderList !== undefined && orderList.length > 0 && loadMore == true"><span class="h3 font-color-global-lighter">点击查看更多</span></div>
+    <div class="text-center orderNull" ng-if="orderList == undefined || orderList.length <= 0">
+        <img class="margin-top-md" src="img/orderNull.png" alt="">
+    </div>
+</div>

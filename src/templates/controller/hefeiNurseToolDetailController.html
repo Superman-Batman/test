@@ -1,0 +1,89 @@
+<div class="hefeiNurseToolController">
+    <div class="h0 swiper-container" ng-if="step=='process'">
+        <ul class="swiper-wrapper">
+            <div ng-repeat="q in qFlags" class="swiper-slide" ng-if="$index == currentIndex">
+                <li class="toolOption background-color-white clear-float padding-top-md padding-bottom-md" ng-if="q.type==1 || q.type==2">
+                    <h2 class="h2 font-color-global-base margin-left-md margin-bottom-sm margin-right-md">
+                        {{data.toolBasicInfo.name}}({{$index+1}}/{{data.question.length}})</h2>
+                    <h3 class="h3 margin-right-md margin-left-md" ng-bind="q.title+(q.type==1?'(单选)':'(多选)')"></h3>
+                    <div class="{{q.clen}} text-center h3 padding-width-sm radius-md margin-left-md margin-top-md float-left  font-color-global-lighter border-line border-color-global-heavyer {{o.sel?'active':''}}"
+                         ng-repeat="o in q.oEle" ng-bind="o.content" ng-click="optionChange($parent.$index,$index)">
+                    </div>
+                </li>
+                <!--<li class="toolImgOption background-color-white clear-float padding-bottom-md padding-top-md" ng-if="q.type==3||q.type==4">-->
+                    <!--<h2 class="font-color-global-lighter margin-left-md margin-bottom-sm margin-right-md">-->
+                        <!--{{data.tool.name}}({{$index+1}}/{{data.questionList.length}})</h2>-->
+                    <!--<h3 class="h3 margin-left-md margin-right-md">{{q.title}}<span class="font-color-global-lightest">{{(q.type==3?'(单选)':'(多选)')}}</span></h3>-->
+                    <!--<div class=" font-color-global-lighter h0 text-center {{o.sel?'active':''}}"-->
+                         <!--ng-repeat="o in q.oEle" ng-click="optionChange($parent.$index,$index)">-->
+                        <!--<img ng-src="{{o.imgUrl}}" class="radius-md">-->
+                        <!--<h3 class="text-center margin-top-xs overflow-line-2" ng-bind="o.content"></h3>-->
+                    <!--</div>-->
+                <!--</li>-->
+                <!--<li class=" toolInputOption background-color-white clear-float padding-top-md padding-bottom-md" ng-if="q.type==5">-->
+                    <!--<h2 class="font-color-global-lighter margin-left-md margin-bottom-sm margin-right-md">-->
+                        <!--{{data.tool.name}}({{$index+1}}/{{data.questionList.length}})</h2>-->
+                    <!--<h3 class="h3 margin-left-md margin-right-md">{{q.title}}</h3>-->
+                    <!--<div class="{{q.clen}} text-center margin-left-md margin-top-md h3 padding-width-sm  overflow-line-1  clearFloat  font-color-global-lighter   {{o.sel?'active':''}}"-->
+                         <!--ng-repeat="o in q.oEle">-->
+                        <!--<label for="{{'i'+parseInt($parent.$index)*100+$index}}" ng-bind="o.content"-->
+                               <!--class="overflow-line-1"></label>-->
+                        <!--<textarea ng-if="o.inputType=='textarea'" rows="4"-->
+                                  <!--id="{{'i'+parseInt($parent.$index)*100+$index}}" type="text" ng-model="o.sel"-->
+                                  <!--class=" radius-md border-color-global-heavyer border-color-green padding-sm"-->
+                                  <!--placeholder="{{o.placeholder}}"></textarea>-->
+                        <!--<input ng-if="o.inputType=='input'" id="{{'i'+parseInt($parent.$index)*100+$index}}" type="text"-->
+                               <!--ng-model="o.sel"-->
+                               <!--class=" radius-md border-color-global-heavyer border-color-green padding-sm"-->
+                               <!--placeholder="{{o.placeholder}}">-->
+                    <!--</div>-->
+                <!--</li>-->
+            </div>
+            <li class="swiper-slide toolResult" ng-if="currentIndex == qFlags.length">
+                <!--<h2>{{data.tool.name}}(确认选项)</h2>-->
+                <h2 class="font-color-global-lighter">评估详情</h2>
+                <div ng-repeat="q in qFlags"
+                     class="margin-sm padding-height-sm padding-width-md radius-md background-color-white">
+                    <table style="width: 100%;line-height: 2" class="h2">
+                        <tr class="font-color-global-lighter">
+                            <td class=""
+                                style="width:4em;">第{{$index+1}}题
+                            </td>
+                            <td class="">{{q.title}}</td>
+                        </tr>
+                        <tr class="" ng-if="o.sel!=''">
+                            <td class="">答</td>
+                            <td class="">{{getResultStr(q.oEle)}}</td>
+                        </tr>
+                    </table>
+                    <!--<p class="h2" ng-if="q.type!=5">-->
+
+                    <!--<span class="font-color-global-lighter"><span></span>第{{$index+1}}题{{q.title}}<br></span>-->
+                    <!--<span class="font-color-global-base">{{getResultStr(q.oEle)}} <br></span>-->
+                    <!--</p>-->
+                    <!--<p class="h3 margin-bottom-xs font-color-global-lightest" ng-if="q.type==5" ng-repeat="o in q.oEle">-->
+
+                    <!--<span class="font-color-global-lighter">{{o.content}}:-->
+                    <!--{{o.sel==''?'无':o.sel}}-->
+                    <!--</span>-->
+                    <!--</p>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="actions" ng-if="step=='process'">
+        <div class="prev h2 font-color-global-lighter background-color-white text-center radius-md"
+             ng-click="prevOption()">
+            上一题
+        </div>
+        <div class="next h2
+    background-color-pink font-color-white text-center radius-md"
+             ng-click="nextOption()">
+            {{currentIndex >= qFlags.length?'提交':'下一题'}}
+        </div>
+        <!--<div class="actionsBK"></div>-->
+    </div>
+
+    <!--<tool-result-controller title="{{data.tool.name}}" data="result" ng-if="step=='result'">-->
+    <!--</tool-result-controller>-->
+</div>

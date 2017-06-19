@@ -1,0 +1,168 @@
+{
+  "result": {
+    "success": true,
+    "code": 1
+  },
+  "order": [
+    {
+      "orderId": 998,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "statusAction": {
+        "statusType": 2,
+        "statusDisplayMsg": "服务中",
+        "statusDescMsg": "用户申请退款",
+        "statusColor": "green"
+      },
+      "patient": {
+        "patientId": 123,
+        "name": "张富贵",
+        "gender": "男",
+        "phone": "18612345678",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 998,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "statusAction": {
+        "statusType": 2,
+        "statusDisplayMsg": "服务中",
+        "statusDescMsg": "用户申请退款",
+        "statusColor": "green"
+      },
+      "patient": {
+        "patientId": 123,
+        "name": "张富贵",
+        "gender": "男",
+        "phone": "18612345678",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 998,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "statusAction": {
+        "statusType": 2,
+        "statusDisplayMsg": "服务中",
+        "statusColor": "green"
+      },
+      "patient": {
+        "patientId": 123,
+        "name": "张富贵",
+        "gender": "男",
+        "phone": "18612345678",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 998,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "statusAction": {
+        "statusType": 2,
+        "statusDisplayMsg": "服务中",
+        "statusDescMsg": "用户申请退款",
+        "statusColor": "green"
+      },
+      "patient": {
+        "patientId": 123,
+        "name": "张富贵",
+        "gender": "男",
+        "phone": "18612345678",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 998,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "statusAction": {
+        "statusType": 2,
+        "statusDisplayMsg": "服务中",
+        "statusDescMsg": "护士申请退款",
+        "statusColor": "green"
+      },
+      "patient": {
+        "patientId": 123,
+        "name": "张富贵",
+        "gender": "男",
+        "phone": "18612345678",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    },
+    {
+      "orderId": 998,
+      "orderNo": 2121,
+      "item": {
+        "itemId": 887,
+        "name": "上门尿管护理",
+        "price": 12000,
+        "period": 7200,
+        "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg"
+      },
+      "statusAction": {
+        "statusType": 2,
+        "statusDisplayMsg": "取消",
+        "statusColor": "gray"
+      },
+      "patient": {
+        "patientId": 123,
+        "name": "张富贵",
+        "gender": "男",
+        "phone": "18612345678",
+        "age": 53,
+        "address": "合肥市庐阳区安景苑7号楼2单元108"
+      },
+      "orderTime": 1479712913000,
+      "servingTime": 1479712913000
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<div class="createAnnouncementController">
+    <a ui-sref="createAnnouncementState"
+       class="h2 margin-right-md font-color-global-base many-duty">新建</a>
+    <div class="background-color-white border-line-bottom border-color-global-base" ng-if="data.announcement.length>0">
+
+        <div class="padding-height-sm margin-width-md background-color-white">
+            <i class="text-center projectIconfont font-color-pink h3">&#xe698;</i>
+            <p class="display-inline"><span class="font-color-pink h3"
+                                            ng-bind="'展示中：'+data.announcement.length+'条'"></span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<ul>
+    <a ui-sref="messageContentState({eventId:message.eventId})" ng-repeat="message in data.announcement"
+       class="background-color-white display-block">
+        <li class="createAnnouncementController border-color-global-base  {{$index != 0?'border-line-top':''}}  padding-right-md margin-left-md"
+            style="position: relative">
+            <!--<img src="img/announce.png" alt="" class="img position-right-imgs">-->
+            <announcement-item-controller data="message"></announcement-item-controller>
+        </li>
+    </a>
+
+    <div class="background-color-lightGray margin-top-sm border-line-bottom border-color-global-base"
+         ng-if="data.announcementExpire.length>0">
+        <div class="padding-height-sm margin-width-md">
+            <i class="text-center projectIconfont font-color-global-lightest h3">&#xe698;</i>
+            <p class="display-inline h3 font-color-global-lightest"><span
+                    class="font-color-global-lightest h3" ng-bind="'已过期：'+data.announcementExpire.length+'条'"></span>
+            </p>
+        </div>
+    </div>
+
+
+    <a ng-repeat="editMg in data.announcementExpire" class="display-block background-color-lightGray">
+        <li class=" {{$index != 0?'border-line-top':''}} padding-right-md margin-left-md border-color-global-base"
+            style="position: relative">
+            <!--<img src="img/announce.png" alt="" class="img position-right-imgs" ng-show="read == true">-->
+            <announcement-item-controller data="editMg"
+                                          class="font-color-global-lightest"></announcement-item-controller>
+        </li>
+    </a>
+
+    <div class="text-center dataNull margin-top-xl"
+         ng-show="!data.announcement.length && !data.announcementExpire.length">
+        <img class="margin-top-xxl" src="img/dataNull.png" alt="">
+        <p class="h3 font-color-base text-center margin-top-md">暂无数据</p>
+    </div>
+</ul>

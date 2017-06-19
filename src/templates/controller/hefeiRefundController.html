@@ -1,0 +1,18 @@
+<div class="background-color-white hefeiRefundController margin-top-sm">
+    <p class="h3 font-color-global-base item-title padding-height-sm padding-left-sm border-line-bottom border-color-global-base" ng-bind="data.applyRefund.title"></p>
+    <div class="padding-width-md background-color-white float-left">
+        <span class="font-color-global-lighter float-left padding-bottom-md padding-top-sm">
+            <span class="h4 float-left refund-title-width padding-left-md">退款原因: </span>
+            <span class="h4 float-left display-inline refund-content-width" ng-bind="data.applyRefund.cause"></span>
+        </span>
+        <p class="h4 font-color-global-lighter float-left padding-left-md" ng-bind="'退款金额：' + (data.applyRefund.money / 100 | currency: '':2) + '元'"></p>
+        <span class="font-color-global-lighter float-left padding-height-md">
+            <span class="h4 float-left refund-title-width padding-left-md">退款说明: </span>
+            <span class="h4 float-left display-inline refund-content-width" ng-bind="data.applyRefund.desc"></span>
+        </span>
+    </div>
+</div>
+<div class="text-center bottom-btn" ng-if="refundBtn.isTrue == true">
+    <a class="padding-height-md float-left font-color-white h3 align-inline-2 background-color-pink" ng-click="onRefundClick(true)" ng-bind="refundBtn.title"></a>
+    <a class="padding-height-md float-left h3 border-line-top border-color-global-base align-inline-2 background-color-white " ng-click="onRefundClick(false)">拒绝退款</a>
+</div>

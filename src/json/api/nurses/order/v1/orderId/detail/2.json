@@ -1,0 +1,57 @@
+{
+  "result": {
+    "success": true,
+    "code": 1
+  },
+  "order": {
+    "orderId": 998,
+    "orderNo": 2121,
+    "orderTime": 1479712913000,
+    "servingTime": 1479712913000,
+    "nurseId": 111,
+    "status": {
+      "statusType": 4,
+      "statusDisplayMsg": "待服务",
+      "color": "red"
+    },
+    "item": {
+      "itemId": 887,
+      "name": "上门尿管护理",
+      "price": 12000,
+      "period": 7200,
+      "pic": "http: //img1.imgtn.bdimg.com/it/u=3505488306691858093&fm=21&gp=0.jpg",
+      "desc": "根据患者病情状态，进行导尿管道的常规护理操作，要求避免管道感染等并发症"
+    },
+    "patient": {
+      "patientId": 45273,
+      "name": "张富贵",
+      "gender": "男",
+      "age": 53,
+      "phone": "18612345678",
+      "address": "合肥市庐阳区安景苑7号楼2单元108"
+    },
+    "action": [
+      {
+        "actionId": 4,
+        "order": 1,
+        "actionType": 5,
+        "title": "推送健康宣教知识",
+        "desc": "下单后，系统自动为您推送"
+      },
+      {
+        "actionId": 5,
+        "actionType": 6,
+        "order": 2,
+        "title": "服务前评估",
+        "desc": "服务前，对患者状态进行综合评估"
+      },
+      {
+        "actionId": 6,
+        "actionType": 7,
+        "order": 3,
+        "title": "尿管护理操作",
+        "desc": "对尿管进行护理操作，时长约100分钟"
+      }
+    ]
+  }
+}
